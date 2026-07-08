@@ -1,6 +1,16 @@
 ---
 name: instrument-with-monocle
-description: Use when instrumenting a Python agentic app with Monocle telemetry — this is the default, deep posture. Beyond placing the setup call and grading traces, when a gap turns out to be in Monocle itself this skill fixes Monocle directly against a local, writable clone (cloning it from upstream on first use if absent) and proves the fix with Monocle's own tests. Triggers: "instrument this with monocle", "add monocle to this repo", "set up monocle telemetry", "trace this agent", "deep-instrument this", "add monocle support for <framework>" (especially one Monocle does not yet patch, e.g. AG2/autogen), "run the cascade across the demo corpus", or any ask to structurally extend Monocle (new framework metamodel; refactor span handlers/processors/entities; edit the registry).
+description: >-
+  Use when instrumenting a Python agentic app with Monocle telemetry — this is the
+  default, deep posture. Beyond placing the setup call and grading traces, when a gap
+  turns out to be in Monocle itself this skill fixes Monocle directly against a local,
+  writable clone (cloning it from upstream on first use if absent) and proves the fix
+  with Monocle's own tests. Triggers: "instrument this with monocle", "add monocle to
+  this repo", "set up monocle telemetry", "trace this agent", "deep-instrument this",
+  "add monocle support for <framework>" (especially one Monocle does not yet patch,
+  e.g. AG2/autogen), "run the cascade across the demo corpus", or any ask to
+  structurally extend Monocle (new framework metamodel; refactor span
+  handlers/processors/entities; edit the registry).
 argument-hint: [app_folder]
 allowed-tools:
   - Read
