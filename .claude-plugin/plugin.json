@@ -1,0 +1,12 @@
+{
+  "name": "instrument-with-monocle",
+  "version": "1.0.0",
+  "description": "Instrument a Python agentic app with Monocle telemetry, verify the traces against a good-trace rubric, and auto-create the instrumentation when Monocle finds it missing or incomplete.",
+  "author": {
+    "name": "Mohammed Ansari"
+  },
+  "homepage": "https://github.com/imohammedansari/instrument-with-monocle",
+  "repository": "https://github.com/imohammedansari/instrument-with-monocle",
+  "license": "Apache-2.0",
+  "keywords": ["monocle", "tracing", "observability", "instrumentation", "telemetry", "agents", "agentic"]
+}
