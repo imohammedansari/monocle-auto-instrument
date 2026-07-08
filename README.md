@@ -10,10 +10,20 @@ the traces come out complete.
 
 ## Install
 
-In Claude Code, run these two commands:
+Two separate steps in Claude Code — run them one at a time, not together.
+
+**1. Add the marketplace:**
 
 ```
 /plugin marketplace add imohammedansari/instrument-with-monocle
+```
+
+> If Claude Code opens an "Add Marketplace / Enter marketplace source" prompt, type **only**
+> `imohammedansari/instrument-with-monocle` and press Enter — nothing else.
+
+**2. Install the plugin** (run this as a new command, after step 1 finishes):
+
+```
 /plugin install instrument-with-monocle@monocle
 ```
 
