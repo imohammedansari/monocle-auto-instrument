@@ -52,7 +52,7 @@ Branch + PR conventions:
   - `## Further comments` — for a structural or complex change, explain why you chose this solution and what
     alternatives you considered.
 
-  End with the attribution footer `🤖 Generated with the instrument-with-monocle skill`.
+  End with the attribution footer `🤖 Generated with the monocle-auto-instrument skill`.
 
 ```bash
 cd <your-monocle-clone>
@@ -63,7 +63,7 @@ git commit -s -m "$(cat <<'EOF'
 
 <what was missing, root cause, the small fix, smoke-test evidence>
 
-🤖 Generated with the instrument-with-monocle skill
+🤖 Generated with the monocle-auto-instrument skill
 EOF
 )"
 git push -u origin monocle-fix/<feature>          # pushes to your fork
@@ -96,7 +96,7 @@ smoke test. Link any issue this fixes.>
 
 <For a structural or complex change: why you chose this solution and what alternatives you considered.>
 
-🤖 Generated with the instrument-with-monocle skill
+🤖 Generated with the monocle-auto-instrument skill
 EOF
 
 gh pr create --repo monocle2ai/monocle \

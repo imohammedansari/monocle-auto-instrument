@@ -1,4 +1,4 @@
-# Instrument with Monocle
+# Monocle Auto-Instrument
 
 A [Claude Code](https://claude.com/claude-code) skill that instruments an agentic system with
 **[Monocle](https://github.com/monocle2ai/monocle)** telemetry.
@@ -15,16 +15,16 @@ Two separate steps in Claude Code — run them one at a time, not together.
 **1. Add the marketplace:**
 
 ```
-/plugin marketplace add imohammedansari/instrument-with-monocle
+/plugin marketplace add imohammedansari/monocle-auto-instrument
 ```
 
 > If Claude Code opens an "Add Marketplace / Enter marketplace source" prompt, type **only**
-> `imohammedansari/instrument-with-monocle` and press Enter — nothing else.
+> `imohammedansari/monocle-auto-instrument` and press Enter — nothing else.
 
 **2. Install the plugin** (run this as a new command, after step 1 finishes):
 
 ```
-/plugin install instrument-with-monocle@monocle
+/plugin install monocle-auto-instrument@monocle
 ```
 
 ## Use

@@ -5,7 +5,7 @@
   },
   "plugins": [
     {
-      "name": "instrument-with-monocle",
+      "name": "monocle-auto-instrument",
       "source": "./",
       "description": "Instrument a Python agentic app with Monocle telemetry, verify the traces, and auto-create the instrumentation when it's missing or incomplete."
     }

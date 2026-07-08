@@ -1,5 +1,5 @@
 ---
-name: instrument-with-monocle
+name: monocle-auto-instrument
 description: >-
   Use when instrumenting a Python agentic app with Monocle telemetry — this is the
   default, deep posture. Beyond placing the setup call and grading traces, when a gap
@@ -21,7 +21,7 @@ allowed-tools:
   - AskUserQuestion
 ---
 
-# Instrument with Monocle
+# Monocle Auto-Instrument
 
 This is the default instrumentation skill, run in a **deep posture**: whoever runs it — a Monocle maintainer or an outside contributor — works against a **local, writable Monocle clone** and may change Monocle itself, not just the app. That posture changes three things:
 
@@ -109,7 +109,7 @@ When the framework is unsupported (e.g. AG2/`autogen`):
 ## Phase 6 — Commit / PR (gate only on push)
 
 1. Once the demo PASSES and pytest is green, commit to a working branch on your fork (`monocle-fix/<feature>`), **DCO-signed** (`git commit -s`). Local/WIP commits need no gate.
-2. 🚦 Ask before pushing / opening the upstream PR against `monocle2ai/monocle`. Follow `reference/fix-and-pr-flow.md`: **`[claude-skill]`-prefixed title**, DCO sign-off (`git commit -s`), and the `🤖 Generated with the instrument-with-monocle skill` footer. Batch related fixes into one coherent PR where sensible.
+2. 🚦 Ask before pushing / opening the upstream PR against `monocle2ai/monocle`. Follow `reference/fix-and-pr-flow.md`: **`[claude-skill]`-prefixed title**, DCO sign-off (`git commit -s`), and the `🤖 Generated with the monocle-auto-instrument skill` footer. Batch related fixes into one coherent PR where sensible.
 
 ## Phase 7 — Cascade across a framework (the corpus driver)
 
