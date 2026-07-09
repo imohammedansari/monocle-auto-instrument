@@ -42,5 +42,4 @@ graded trace — telling you whether the instrumentation is good and fixing it i
 
 - **Supported frameworks** — the skill already adds and verifies instrumentation for the agent
   frameworks Monocle supports today (e.g. LangGraph, CrewAI, LlamaIndex, OpenAI Agents SDK, Strands).
-- **Custom frameworks** — support for instrumenting custom / not-yet-supported agent frameworks from
-  scratch is on the roadmap and not available yet.
+- **Custom frameworks** — support for instrumenting custom frameworks not-yet-supported 
