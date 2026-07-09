@@ -32,7 +32,7 @@ Two separate steps in Claude Code — run them one at a time, not together.
 Open Claude Code in the Python agentic project you want to trace, then ask:
 
 ```
-instrument this with monocle
+instrument this agentic system with monocle
 ```
 
 The skill detects the framework, adds the telemetry, runs a representative question, and reports a
